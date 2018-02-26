@@ -26,8 +26,8 @@ class DemoConfig:
     cell = tf.contrib.rnn.BasicLSTMCell
 
     # Training
-    optimizer = tf.train.RMSPropOptimizer
-    n_epoch = 800
+    optimizer = tf.train.AdamOptimizer
+    n_epoch = 2
     learning_rate = 0.001
 
     # Tokens
